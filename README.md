@@ -1,7 +1,7 @@
 Ginc for Ginc Is Not a CMS
 ==========================
 
-Ginc is lighwhite and fast developmment framework, that whas developed in 2011 as part of experiment to get the most faster execution and keep a relative simplicity of use.
+Ginc is lighwhite and fast PHP HMVC developmment framework, that whas developed in 2011 as part of experiment to get the most faster execution and keep a relative simplicity of use.
 
 API
 ===
@@ -57,7 +57,7 @@ License
 
 Notice:
 
-Some parts of the code belong to other frameworks and are licenced under their own license.
+Some parts of the code belong to other frameworks and are licensed under their own licenses.
 
 Authors
 =======
