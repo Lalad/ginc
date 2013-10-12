@@ -1,3 +1,0 @@
-echo String::bytes('5KiB'); // 5242880 
-echo String::censor('What the frick, man!', array('frick' => '#####'), '###', TRUE);
-error Upload integrate with form
