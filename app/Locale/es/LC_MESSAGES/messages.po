@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-17 13:15-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mainapp.php:23
+msgid "Demonstration"
+msgstr "Demostración"
+
+#: mainapp.php:24
+msgid "If you change your browser language setting to a different first language you can then view this page in different languages."
+msgstr "Si cambia el idioma configuración para que una lengua materna diferente a continuación, puede ver esta página en diferentes idiomas."
+
+#: mainapp.php:24
+msgid "Spanish, French and German translations are provided."
+msgstr "traducciones al español, francés y alemán se proporcionan."
+
+#: mainapp.php:24
+msgid "Try adding a new gettext language translation."
+msgstr "Trate de añadir una traducción gettext nuevo idioma."
+
+#: mainapp.php:25
+msgid "In Firefox go to "
+msgstr "En Firefox ir a"
+
+#: mainapp.php:25
+msgid "Edit"
+msgstr "Editar"
+
+#: mainapp.php:25
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: mainapp.php:25
+msgid "Content"
+msgstr "Contenido"
+
+#: mainapp.php:25 mainapp.php:26
+msgid "Languages"
+msgstr "Idiomas"
+
+#: mainapp.php:26
+msgid "In IE go to "
+msgstr "En Internet Explorer vaya a"
+
+#: mainapp.php:26
+msgid "Tools"
+msgstr "Herramientas"
+
+#: mainapp.php:26
+msgid "Internet Options"
+msgstr "Opciones de Internet"
+
+#: mainapp.php:26
+msgid "General"
+msgstr "General"
+
+#: mainapp.php:27
+msgid "If you look at the php source file you will see that we are using gettext to translate both single words and full sentences."
+msgstr "Si nos fijamos en el archivo de código fuente PHP podrás ver que estamos usando gettext para traducir dos palabras y frases completas."
+
+#: mainapp.php:28
+msgid "In Main App"
+msgstr "En la aplicación principal"
+
+#: mainapp.php:29
+msgid "Now using the Main App translation file."
+msgstr "Ahora, utilizando el archivo principal de la aplicación de traducción."
+
+#: mainapp.php:43
+msgid "Back in Main App"
+msgstr "De vuelta en la aplicación principal"
+
+#: mainapp.php:44
+msgid "Do some more Main App stuff."
+msgstr "Haga un poco de más cosas de la aplicación principal."
+
+#: mainapp.php:45
+msgid "Once again using the Main App translation file."
+msgstr "Una vez más utilizando el archivo principal de la aplicación de traducción."
+
+#: mainapp.php:58
+msgid "Steps to Create New Gettext Translation"
+msgstr "Pasos para Crear Nueva Traducción Gettext"
+
+#: mainapp.php:59
+msgid "1. Create a new locale language directory: "
+msgstr "1. Crear un directorio de configuración regional de idioma nuevo:"
+
+#: mainapp.php:60
+msgid "2. Run xgettext like this: "
+msgstr "2. Ejecutar xgettext así:"
+
+#: mainapp.php:61
+msgid "3. Set charset and add your new translations in: "
+msgstr "3. charset Establecer y añadir sus nuevas traducciones en:"
+
+#: mainapp.php:62
+msgid "4. Run msgfmt like this: "
+msgstr "4. Ejecutar msgfmt así:"
+
+#: mainapp.php:63
+msgid "That's it."
+msgstr "Eso es todo."
+
+#: mainapp.php:63
+msgid "Now restart your test webserver to prevent any caching issues and enjoy your new translation."
+msgstr "Ahora reinicie el servidor web de prueba para evitar cualquier problema de almacenamiento en caché y disfrutar de su nueva traducción."

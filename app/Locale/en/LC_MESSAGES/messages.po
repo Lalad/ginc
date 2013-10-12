@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-17 13:15-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mainapp.php:23
+msgid "Demonstration"
+msgstr ""
+
+#: mainapp.php:24
+msgid "If you change your browser language setting to a different first language you can then view this page in different languages."
+msgstr ""
+
+#: mainapp.php:24
+msgid "Spanish, French and German translations are provided."
+msgstr ""
+
+#: mainapp.php:24
+msgid "Try adding a new gettext language translation."
+msgstr ""
+
+#: mainapp.php:25
+msgid "In Firefox go to "
+msgstr ""
+
+#: mainapp.php:25
+msgid "Edit"
+msgstr ""
+
+#: mainapp.php:25
+msgid "Preferences"
+msgstr ""
+
+#: mainapp.php:25
+msgid "Content"
+msgstr ""
+
+#: mainapp.php:25 mainapp.php:26
+msgid "Languages"
+msgstr ""
+
+#: mainapp.php:26
+msgid "In IE go to "
+msgstr ""
+
+#: mainapp.php:26
+msgid "Tools"
+msgstr ""
+
+#: mainapp.php:26
+msgid "Internet Options"
+msgstr ""
+
+#: mainapp.php:26
+msgid "General"
+msgstr ""
+
+#: mainapp.php:27
+msgid "If you look at the php source file you will see that we are using gettext to translate both single words and full sentences."
+msgstr ""
+
+#: mainapp.php:28
+msgid "In Main App"
+msgstr ""
+
+#: mainapp.php:29
+msgid "Now using the Main App translation file."
+msgstr ""
+
+#: mainapp.php:43
+msgid "Back in Main App"
+msgstr ""
+
+#: mainapp.php:44
+msgid "Do some more Main App stuff."
+msgstr ""
+
+#: mainapp.php:45
+msgid "Once again using the Main App translation file."
+msgstr ""
+
+#: mainapp.php:58
+msgid "Steps to Create New Gettext Translation"
+msgstr ""
+
+#: mainapp.php:59
+msgid "1. Create a new locale language directory: "
+msgstr ""
+
+#: mainapp.php:60
+msgid "2. Run xgettext like this: "
+msgstr ""
+
+#: mainapp.php:61
+msgid "3. Set charset and add your new translations in: "
+msgstr ""
+
+#: mainapp.php:62
+msgid "4. Run msgfmt like this: "
+msgstr ""
+
+#: mainapp.php:63
+msgid "That's it."
+msgstr ""
+
+#: mainapp.php:63
+msgid "Now restart your test webserver to prevent any caching issues and enjoy your new translation."
+msgstr ""

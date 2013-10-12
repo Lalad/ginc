@@ -1,0 +1,213 @@
+// Variables
+
+// Buttons
+// -------------------------
+
+@btnGrayBackground:              #CCCCCC;
+@btnGrayBackgroundHighlight:     #999999;
+
+
+
+// Forms
+// Base styles for various input types, form layouts, and states
+// -------------------------------------------------------------
+
+
+// GENERAL STYLES
+// --------------
+
+// Make all forms have space below them
+form {
+  margin: 0 0 0 0;
+}
+
+fieldset {
+    border: 1px solid #EAEAEA!important;
+    .border-radius(5px);
+}
+
+// Groups of fields with labels on top (legends)
+legend {
+  width: auto;
+  padding: 0 22px 0;
+  margin-left: 145px;
+  margin-bottom: @baseLineHeight * 1.5;
+  border-bottom: 0;
+}
+
+// Reset the file input to browser defaults
+input[type="file"] {
+  display: inline-block;
+  width: 210px;
+  height: @baseLineHeight + 4;
+  padding: 4px;
+  margin-bottom: 9px;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: @gray;
+  background-color: @inputBackground;
+  border: 1px solid @inputBorder;
+  .border-radius(@inputBorderRadius);
+}
+
+// FOCUS STATE
+// -----------
+
+input,
+textarea {
+  .box-shadow(none);
+  @transition: border linear .2s, box-shadow linear .2s;
+  .transition(@transition);
+}
+input:focus,
+textarea:focus {
+  border-color: rgba(82,168,236,.8);
+  .box-shadow(none);
+}
+
+
+// SEARCH FORM
+// -----------
+
+.navbar form {
+  margin: 0;
+  padding: 0;
+}
+.navbar form input,
+.navbar form button {
+  margin: 6px 0 0;
+}
+
+
+// FORM ACTIONS
+// ------------
+
+.form-actions {
+  padding: (@baseLineHeight - 5) 20px @baseLineHeight - 4;
+  margin-top: @baseLineHeight;
+  margin-bottom: 0;
+  background-color: @formActionsBackground;
+}
+
+
+
+// Alternate buttons
+// --------------------------------------------------
+
+// Set text color
+// -------------------------
+.btn-gray,
+.btn-gray:hover {
+  color: @white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+// Provide *some* extra contrast for those who can get it
+.btn-gray.active {
+  color: rgba(255,255,255,.75);
+}
+
+// Set the backgrounds
+// -------------------------
+// Gray appears as gray
+.btn-gray {
+  .buttonBackground(@btnGrayBackground, @btnGrayBackgroundHighlight);
+}
+
+
+// BREADCRUMBS
+// -----------
+
+.breadcrumb {
+  .box-shadow(none);
+  .border-radius(none);
+  padding: 0 0;
+    background-image: url('../img/breadcrumb.png');
+  margin: 20px 0;
+    background-position: right top;
+    border: 0;
+    border-left: 1px solid #D9D9D9;
+    height: 29px;
+    li {
+        display: inline-block;
+        .ie7-inline-block();
+        line-height: 28px;
+        padding-left: 12px;
+        text-shadow: 0 1px 0 @white;
+    }
+    a {
+        display: block;
+        background-image: url('../img/breadcrumb.png');
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right: 4px;
+        line-height: 28px;
+    }
+    a:first-child {
+/*        background: url('../img/breadcrumb.png') right 82%;*/
+        padding-right: 22px;
+    }
+    .active a {
+        color: @grayDark;
+    }
+}
+
+
+/* PAGINATION
+---------- */
+.paginax {
+    display: block;
+    margin: 0 auto;
+    height: @baseLineHeight * 2;
+    margin: @baseLineHeight 0;
+    .ie7-inline-block();
+}
+.paginax ul li {
+    display: inline;
+}
+.paginax ul {
+    display: inline;
+    width: auto;
+}
+.paginax ul li a, .paginax ul li span {
+    float: left;
+    background: #EAEAEA;
+    list-style: none;
+    display: inline;
+    margin-right: 6px;
+    padding: 4px 12px;
+    text-decoration: none;
+    line-height: 1.5em;
+    .border-radius(3px);
+}
+.paginax ul li a:hover {
+    background-color: #D0D0D0;
+    color: #fff;
+}
+.paginax ul li:first-child a, .paginax ul li:last-child a {
+    background-color: #BEBEBE;
+    color: #fff;
+}
+.paginax ul li:first-child a:hover,
+.paginax ul li:last-child a:hover {
+    background-color: #af286d;
+    color: #fff;
+}
+.paginax ul li a:active {
+    background: #BEBEBE;
+}
+.paginax ul li.active a {
+    color: #fff;
+    background-color: #7BA60D;
+}
+.paginax-centered {
+    text-align: center;
+}
+.paginax-right {
+    text-align: right;
+}
+
+
+// Footer (for actions)
+.modal-footer {
+  padding: 10px 15px 9px;
+}
